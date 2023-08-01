@@ -4,6 +4,7 @@ import AboutUs from './pages/about-us/AboutUs';
 import Homepage from './pages/home-page/Homepage';
 import Footer from './components/footer/Footer';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import ProjectPage from './pages/project-page/ProjectPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route index element={<Homepage />}/>
             <Route path='/hakkimizda' element={<AboutUs />} />
+            <Route path='/projeler' element={<ProjectPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

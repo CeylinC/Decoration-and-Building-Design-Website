@@ -14,8 +14,8 @@ function Navbar() {
             <ul className="menu-items">
                 <li><Link to='/'>Anasayfa</Link></li>
                 <li><Link to='/hakkimizda'>Hakkımızda</Link></li>
-                <li><Link to='/asd'>Projeler</Link></li>
-                <li><Link to='/dsa'>İletişim</Link></li>
+                <li><Link to='/projeler'>Projeler</Link></li>
+                <li><Link to='/iletisim'>İletişim</Link></li>
             </ul>
             <h1 className="logo">Yapı<span>Tasarım</span><span>Dekorasyon</span></h1>
         </div>

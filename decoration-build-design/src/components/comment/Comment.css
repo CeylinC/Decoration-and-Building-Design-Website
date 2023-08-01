@@ -1,0 +1,25 @@
+div.comment{
+    padding: 10px 0;
+    width: 80%;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.025);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px;
+}
+div.comment .icon{
+    font-size: 5rem;
+    color: gold;
+}
+div.comment .content{
+    width: calc(100% - 10rem);
+}
+div.comment .content .date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #a2a2a2;
+}
