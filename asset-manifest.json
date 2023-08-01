@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Decoration-and-Building-Design-Website/static/css/main.b7ba17b3.css",
+    "main.js": "/Decoration-and-Building-Design-Website/static/js/main.a1591994.js",
+    "static/js/787.4d389d76.chunk.js": "/Decoration-and-Building-Design-Website/static/js/787.4d389d76.chunk.js",
+    "static/media/whoWeAre.jpg": "/Decoration-and-Building-Design-Website/static/media/whoWeAre.34b28e7af682cd3dbe02.jpg",
+    "index.html": "/Decoration-and-Building-Design-Website/index.html",
+    "main.b7ba17b3.css.map": "/Decoration-and-Building-Design-Website/static/css/main.b7ba17b3.css.map",
+    "main.a1591994.js.map": "/Decoration-and-Building-Design-Website/static/js/main.a1591994.js.map",
+    "787.4d389d76.chunk.js.map": "/Decoration-and-Building-Design-Website/static/js/787.4d389d76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7ba17b3.css",
+    "static/js/main.a1591994.js"
+  ]
+}
