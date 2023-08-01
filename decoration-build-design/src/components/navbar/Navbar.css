@@ -3,7 +3,7 @@
     display: none;
 }
 
-.container{
+.containerr{
     max-width: 1200px;
     width: 90%;
     margin: auto;
@@ -130,11 +130,11 @@
         padding-top: 100px;
         background: #fff;
         height: 100vh;
-        max-width: 300px;
+        max-width: 250px;
         transform: translate(-150%);
         display: flex;
         flex-direction: column;
-        margin-top: 0;
+        margin-top: -10px;
         margin-left: -40px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar">
-        <div className="navbar-container container">
+        <div className="navbar-container containerr">
             <input type="checkbox" name="" id="" />
             <div className="hamburger-lines">
                 <span className="line line1"></span>
