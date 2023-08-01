@@ -1,0 +1,23 @@
+.slider{
+   width: 100%;
+   height: calc(100vh - 80px);
+   overflow: hidden;
+}
+.slider img{
+   object-fit: cover;
+   width: 100%;
+   height: calc(100vh - 80px);
+}
+.slider .slider-one,
+.slider .slider-two,
+.slider .slider-three{
+   bottom: 50%;
+   color: black;
+   font-weight: bolder;
+   user-select: none;
+}
+.slider .slider-one h1,
+.slider .slider-two h1,
+.slider .slider-three h1{
+   font-size: 4rem;
+}
