@@ -16,6 +16,7 @@ div.comment .icon{
 }
 div.comment .content{
     width: calc(100% - 10rem);
+    padding-top: 20px;
 }
 div.comment .content .date{
     position: absolute;

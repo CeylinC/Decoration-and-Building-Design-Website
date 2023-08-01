@@ -88,11 +88,17 @@ function ProjectPage() {
                     const openModel = () => {
                         divRef.current.classList.remove('video');
                         divRef.current.classList.add("model");
+                        document.querySelectorAll(".video").forEach((video) => {
+                            video.style.display = "none";
+                        });
                         setModel(true);
                     }
                     const closeModel = () => {
                         divRef.current.classList.remove('model');
                         divRef.current.classList.add('video');
+                        document.querySelectorAll(".video").forEach((video) => {
+                            video.style.display = "block";
+                        });
                         setModel(false);
                     }
                     return(
