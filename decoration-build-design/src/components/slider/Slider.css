@@ -2,17 +2,19 @@
    width: 100%;
    height: calc(100vh - 80px);
    overflow: hidden;
+   background-color: black;
 }
 .slider img{
    object-fit: cover;
    width: 100%;
    height: calc(100vh - 80px);
+   opacity: 0.5;
 }
 .slider .slider-one,
 .slider .slider-two,
 .slider .slider-three{
    bottom: 50%;
-   color: black;
+   color: white;
    font-weight: bolder;
    user-select: none;
 }
