@@ -1,12 +1,19 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Slider from './components/slider/Slider';
+import AboutUs from './pages/about-us/AboutUs';
+import Homepage from './pages/home-page/Homepage';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Slider />
+        <BrowserRouter>
+        <Navbar />
+          <Routes>
+            <Route index element={<Homepage />}/>
+            <Route path='/hakkimizda' element={<AboutUs />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }

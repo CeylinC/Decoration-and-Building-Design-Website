@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -11,10 +12,10 @@ function Navbar() {
                 <span className="line line3"></span>
             </div>
             <ul className="menu-items">
-                <li><a href="#">Anasayfa</a></li>
-                <li><a href="#">Hakkımızda</a></li>
-                <li><a href="#">Projeler</a></li>
-                <li><a href="#">İletişim</a></li>
+                <li><Link to='/'>Anasayfa</Link></li>
+                <li><Link to='/hakkimizda'>Hakkımızda</Link></li>
+                <li><Link to='/asd'>Projeler</Link></li>
+                <li><Link to='/dsa'>İletişim</Link></li>
             </ul>
             <h1 className="logo">Yapı<span>Tasarım</span><span>Dekorasyon</span></h1>
         </div>

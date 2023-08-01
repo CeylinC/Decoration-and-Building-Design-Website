@@ -1,9 +1,6 @@
 import './Slider.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import sliderOne from "../../asset/img/sliderTwo.jpg";
-import sliderTwo from "../../asset/img/sliderOne.jpg";
-import sliderThree from "../../asset/img/sliderThree.jpg";
 
 function Slider() {
   return (
@@ -11,7 +8,7 @@ function Slider() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src={sliderOne}
+          src="./asset/img/sliderTwo.jpg"
           alt="First slide"
         />
         <Carousel.Caption className='slider-one'>
@@ -23,7 +20,7 @@ function Slider() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src={sliderTwo}
+          src="./asset/img/sliderOne.jpg"
           alt="Second slide"/>
            <Carousel.Caption className='slider-two'>
           <h1>Zarafetin Sırrı</h1>
@@ -34,7 +31,7 @@ function Slider() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src={sliderThree}
+          src="./asset/img/sliderThree.jpg"
           alt="Third slide"
         />
         <Carousel.Caption className='slider-three'>
