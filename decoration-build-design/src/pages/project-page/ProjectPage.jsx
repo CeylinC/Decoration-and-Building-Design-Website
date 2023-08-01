@@ -12,7 +12,7 @@ function ProjectPage() {
     let data = [
         {
             id: 1,
-            poster: 'https://i.ytimg.com/an_webp/3XnVihF51zs/mqdefault_6s.webp?du=3000&sqp=CJSTpaYG&rs=AOn4CLBuZHZdRSBW3Qd7AHokkN_4WR_xpg',
+            poster: 'https://i.ytimg.com/vi/3XnVihF51zs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxmdxnz26xsOLOzhSCwwwIqLOT0Q',
             videoUri: './asset/video/video1.mp4',
             comments: [
                 {
@@ -34,21 +34,21 @@ function ProjectPage() {
         },
         {
             id: 2,
-            poster: 'https://i.ytimg.com/an_webp/3XnVihF51zs/mqdefault_6s.webp?du=3000&sqp=CJSTpaYG&rs=AOn4CLBuZHZdRSBW3Qd7AHokkN_4WR_xpg',
+            poster: 'https://i.ytimg.com/vi/liQPUOVB9Zo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPLyL6zRvDCjaorqF5hJi8lWOzxw',
             videoUri: './asset/video/video2.mp4',
             comments: [
                 {
-                    name: "Ceylin",
+                    name: "Veli",
                     comment: "Harika",
                     date: "27.10.2022"
                 },
                 {
-                    name: "Azim",
+                    name: "Şöhret",
                     comment: "BAYILDIM!",
                     date: "25.10.2022"
                 },
                 {
-                    name: "Ramazan",
+                    name: "Dilara",
                     comment: "İnanılmaz",
                     date: "26.11.2022"
                 }
@@ -56,21 +56,21 @@ function ProjectPage() {
         },
         {
             id: 3,
-            poster: 'https://i.ytimg.com/an_webp/3XnVihF51zs/mqdefault_6s.webp?du=3000&sqp=CJSTpaYG&rs=AOn4CLBuZHZdRSBW3Qd7AHokkN_4WR_xpg',
+            poster: 'https://i.ytimg.com/vi/mu-wDibD2b0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDan0kJNFXCGGoXhTuZV6ZwiEqhvw',
             videoUri: './asset/video/video3.mp4',
             comments: [
                 {
-                    name: "Ceylin",
+                    name: "Ali",
                     comment: "Harika",
                     date: "27.10.2022"
                 },
                 {
-                    name: "Azim",
+                    name: "Ayşe",
                     comment: "BAYILDIM!",
                     date: "25.10.2022"
                 },
                 {
-                    name: "Ramazan",
+                    name: "Mehmet",
                     comment: "İnanılmaz",
                     date: "26.11.2022"
                 }
