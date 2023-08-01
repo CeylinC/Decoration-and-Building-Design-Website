@@ -1,0 +1,22 @@
+footer{
+    background-color: black;
+    width: 100%;
+    height: calc(25vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-content{
+    border-bottom: 1px solid #212529;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+footer .footer-content .social-media a{
+    color: #212529;
+    font-size: 1.5rem;
+    margin: 5px;
+}
