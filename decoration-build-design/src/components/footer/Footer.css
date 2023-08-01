@@ -20,3 +20,8 @@ footer .footer-content .social-media a{
     font-size: 1.5rem;
     margin: 5px;
 }
+@media screen and (max-width: 475px) {
+    footer .footer-content{
+        flex-direction: column;
+    }
+}
