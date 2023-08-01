@@ -1,0 +1,11 @@
+.services{
+    width: 100%;
+}
+.services h1{
+    text-align: center;
+}
+.services .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

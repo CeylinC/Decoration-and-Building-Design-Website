@@ -1,0 +1,18 @@
+.service-card{
+    width: 290px;
+    border: none !important;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.025);
+    padding: 10px 20px;
+}
+.service-card .card-title{
+    text-align: center;
+    font-size: 1.75rem;
+}
+.service-card .card-text{
+    text-align: center;
+}
+@media screen and (max-width: 950px) {
+    .service-card{
+        margin: 20px;
+    }
+}

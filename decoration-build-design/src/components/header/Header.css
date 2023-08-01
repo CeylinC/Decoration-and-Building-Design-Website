@@ -1,0 +1,8 @@
+.header::first-letter{
+    font-size: 3.5rem;
+    color: gold;
+}
+.header{
+    text-align: center;
+    margin: 40px 0;
+}
